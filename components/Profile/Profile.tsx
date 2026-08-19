@@ -2,10 +2,15 @@ import { Text, View, Image, StyleSheet } from 'react-native';
 
 export default function Profile() {
     return (
-        <Image 
-            source={require('../../assets/images/foto-perfil.jpg')}
-            style={styles.localImage}
-        />
+
+        <View>
+            <Image 
+                source={require('../../assets/images/foto-perfil.jpg')}
+                style={styles.localImage}
+            />
+
+            <Text>Arthur Vinícius Moreira da Silva</Text>
+        </View>
     );
 }
 
@@ -16,8 +21,6 @@ const styles = StyleSheet.create({
         alignItems: "center",
         justifyContent: "center",
         position: "relative",
-        left: 0,
-        top: 0,
         borderRadius: 50,
         marginBottom: 10
     }

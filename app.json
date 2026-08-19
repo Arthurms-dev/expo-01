@@ -2,6 +2,7 @@
   "expo": {
     "name": "expo-01",
     "slug": "expo-01",
+    "owener": "expo-01",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -43,6 +44,18 @@
     "experiments": {
       "typedRoutes": true,
       "reactCompiler": true
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "20e6acc1-6016-473c-81c6-283c0d04c310"
+      }
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/20e6acc1-6016-473c-81c6-283c0d04c310"
     }
   }
 }

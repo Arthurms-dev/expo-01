@@ -12,9 +12,7 @@ export default function Index() {
       }}
     >
 
-      <Profile/>
       <MiniBio/>
-      <Text>Atividade voltada para a disciplina de Programação para Dispositivos Móveis</Text>
     </View>
   );
 }

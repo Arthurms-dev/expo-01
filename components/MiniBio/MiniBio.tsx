@@ -1,4 +1,5 @@
 import { Text, View, Image } from 'react-native';
+import Profile from '../Profile/Profile';
 
 export default function MiniBio() {
     return (
@@ -9,7 +10,8 @@ export default function MiniBio() {
         alignItems: "center",
       }}
     >
-         <Text>Me chamo Arthur Vinícius e tenho 19 anos. Atualmente exerço o cargo de Estagiário de TI no Ministério da Saúde irá fazer 6 meses.</Text>
+          <Profile/>
+         <Text>Estou no cargo de Estagiário de TI no Ministério da Saúde</Text>
     </View>
     );
 }
