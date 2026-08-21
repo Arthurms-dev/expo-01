@@ -12,6 +12,7 @@ export default function Index() {
       }}
     >
 
+      <Text>App criado para a disciplina Programação de Dispositivos Móveis</Text>
       <MiniBio/>
     </View>
   );
